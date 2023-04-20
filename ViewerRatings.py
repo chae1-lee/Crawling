@@ -1,7 +1,3 @@
-
-# 초기설정 ref.: https://wikidocs.net/91474
-# 초기설정 ref.: https://catloaf.tistory.com/19
-
 import time
 from selenium import webdriver
 
@@ -35,8 +31,8 @@ def ExplorePilmography(driver, max_num=4):  # max_num: 최대 작품 수
         time.sleep(1)
 
 
-def Crawling(search_name="김은숙"):
-    path = "C:/Users/user/Downloads/chromedriver_win32/chromedriver.exe"
+def Crawling(search_name="name"):
+    path = "chromedriver.exe"
     driver = webdriver.Chrome(path)
 
     # 검색
